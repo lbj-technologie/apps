@@ -1,0 +1,8 @@
+[
+    {
+        "name":"SSTView",
+        "description": "Une application de décodage/transmission SSTV",
+        "icon":"/apps/images/sstview.png",
+        "page":"/apps/sstview/confidentialite/"
+    }
+]
