@@ -12,7 +12,7 @@ h2 {
     font-size: 30px;
     font-weight: bold;
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -21,7 +21,7 @@ p {
     font-size: 25px;
     font-weight: normal;
     line-height: 1.6;
-    text-align: center;
+    text-align: left;
     color: white;
 }
 
@@ -32,4 +32,43 @@ p {
 
 body {
     background-color: #00011A;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.background img {
+    position: absolute;
+}
+
+.background-blue {
+    left: -40%;
+    top: -250px;
+    width: 90vw;
+}
+
+.background-purple {
+    right: -40%;
+    top: 150px;
+    width: 90vw;
+}
+
+.background-yellow {
+    left: -35%;
+    bottom: -800px;
+    width: 120vw;
+}
+
+details {
+    font-family: -apple-system, system-ui, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.6;
+    text-align: left;
+    color: white;
 }
